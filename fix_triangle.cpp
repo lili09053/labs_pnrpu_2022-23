@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <math.h>
 using namespace std;
 
@@ -41,8 +41,9 @@ int main()
     if (*maxLen < (*len1 + *len2)) // выясняем соответствует ли максимальное значение условию существования треугольника
     {
         int d0 = *maxLen - *len1 - *len2;
-        int d = pow((-2 * d0), 2) - 4 * (pow(*len1, 2) + pow(*len2, 2) - pow(*maxLen, 2)); // дискриминант должен быть целым, чтобы вывести целое значение x
-        if (d > 0 and pow(pow(d, 0.5), 2) == d) // проверка на иррациональность дискриминанта. опора на накопительную ошибку
+        double d = pow((-2 * d0), 2) - 4 * (pow(*len1, 2) + pow(*len2, 2) - pow(*maxLen, 2)); // дискриминант должен быть целым, чтобы вывести целое значение x
+        
+        if (d > 0 and rint(pow(d, 0.5)) - pow(d, 0.5) == 0.0) // проверка на иррациональность дискриминанта. rint округляет к ближайшему целому
         {
             int x1 = (2 * d0 + pow(d, 0.5)) / 2; // находим значение x1
             int x2 = (2 * d0 - pow(d, 0.5)) / 2; // находим значение x2
@@ -90,173 +91,7 @@ int main()
                 f = true;
         }
     }
-/*
 
-
-    if (c > a and c > b and c < (a + b)) // выясняем максимально ли c и проверяем, соответствует ли оно условию существования треугольника
-    {
-        int d = pow((-2 * d0), 2) - 4 * (pow(a, 2) + pow(b, 2) - pow(c, 2)); // дискриминант должен быть целым, чтобы вывести целое значение x
-        if (d > 0)
-        {
-            int x1 = (2 * d0 + pow(d, 0.5)) / 2; // находим значение x1
-            int x2 = (2 * d0 - pow(d, 0.5)) / 2; // находим значение x2
-                                        
-
-            if (x2 > 0 and x1 > 0)              // проверка условий 
-            {
-                if (x1 > x2)                    // максимальное значение среди  x1, x2 
-                    x = x1;
-                else
-                    x = x2;
-            }
-            else
-            {
-                if (x2 > 0 and x1 < 0 and abs(x2) == abs(x1))
-                    x = x2;
-
-                else
-                {
-                    if (x1 > 0 and x2 < 0 and abs(x2) == abs(x1))
-                        x = x1;
-                    else
-                    {
-                        if (x2 > 0 and x1 < 0 and abs(x2) != abs(x1))
-                            x = x2;
-                        else
-                        {
-                            if (x1 > 0 and x2 < 0 and abs(x2) != abs(x1))
-                                x = x1;
-                            else
-                            {
-                                if (x2 < 0 and x1 < 0)
-                                {
-                                    if (x1 > x2)
-                                        x = x1;
-                                    else
-                                        x = x2;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            if (x > d0 and x > d1 and x > d2 and (a + b) > (c - x) and (a + x) > 0 and (b + x) > 0 and (c + x) > 0)
-                f = true;
-        }
-    
-    }
-   
-    
-    
-    if (b > a and c < b and b < (c + a)) // выясняем максимально ли c и проверяем, соответствует ли оно условию существования треугольника
-    {
-        int d = pow((-2 * d2), 2) - 4 * (pow(a, 2) + pow(c, 2) - pow(b, 2)); // дискриминант должен быть целым, чтобы вывести целое значение x
-        if (d > 0)
-        {
-            int x1 = (2 * d2 + pow(d, 0.5)) / 2; // находим значение x1
-            int x2 = (2 * d2 - pow(d, 0.5)) / 2; // находим значение x2
-
-
-            if (x2 > 0 and x1 > 0)              // проверка условий 
-            {
-                if (x1 > x2)                    // максимальное значение среди  x1, x2 
-                    x = x1;
-                else
-                    x = x2;
-            }
-            else
-            {
-                if (x2 > 0 and x1 < 0 and abs(x2) == abs(x1))
-                    x = x2;
-
-                else
-                {
-                    if (x1 > 0 and x2 < 0 and abs(x2) == abs(x1))
-                        x = x1;
-                    else
-                    {
-                        if (x2 > 0 and x1 < 0 and abs(x2) != abs(x1))
-                            x = x2;
-                        else
-                        {
-                            if (x1 > 0 and x2 < 0 and abs(x2) != abs(x1))
-                                x = x1;
-                            else
-                            {
-                                if (x2 < 0 and x1 < 0)
-                                {
-                                    if (x1 > x2)
-                                        x = x1;
-                                    else
-                                        x = x2;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            if (x > d0 and x > d1 and x > d2 and (a + b) > (c - x) and (a + x) > 0 and (b + x) > 0 and (c + x) > 0)
-                f = true;
-        }
-
-    }
-    
-
-    if (a > b and a > c and b < (c + a)) // выясняем максимально ли c и проверяем, соответствует ли оно условию существования треугольника
-    {
-        int d = pow((-2 * d1), 2) - 4 * (pow(c, 2) + pow(b, 2) - pow(a, 2)); // дискриминант должен быть целым, чтобы вывести целое значение x
-        if (d > 0)
-        {
-            int x1 = (2 * d1 + pow(d, 0.5)) / 2; // находим значение x1
-            int x2 = (2 * d1 - pow(d, 0.5)) / 2; // находим значение x2
-
-
-            if (x2 > 0 and x1 > 0)              // проверка условий 
-            {
-                if (x1 > x2)                    // максимальное значение среди  x1, x2 
-                    x = x1;
-                else
-                    x = x2;
-            }
-            else
-            {
-                if (x2 > 0 and x1 < 0 and abs(x2) == abs(x1))
-                    x = x2;
-
-                else
-                {
-                    if (x1 > 0 and x2 < 0 and abs(x2) == abs(x1))
-                        x = x1;
-                    else
-                    {
-                        if (x2 > 0 and x1 < 0 and abs(x2) != abs(x1))
-                            x = x2;
-                        else
-                        {
-                            if (x1 > 0 and x2 < 0 and abs(x2) != abs(x1))
-                                x = x1;
-                            else
-                            {
-                                if (x2 < 0 and x1 < 0)
-                                {
-                                    if (x1 > x2)
-                                        x = x1;
-                                    else
-                                        x = x2;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            if (x > d0 and x > d1 and x > d2 and (a + b) > (c - x) and (a + x) > 0 and (b + x) > 0 and (c + x) > 0)
-                f = true;
-        }
-
-    }
-
-*/
-    
     if (f)
     { 
         cout << "Possible" << endl;
