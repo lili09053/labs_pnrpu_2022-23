@@ -1,0 +1,4 @@
+﻿  num6.cpp
+D:\IT\LabWorks\LabNum6\num6\num6\num6.cpp(57,25): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+D:\IT\LabWorks\LabNum6\num6\num6\num6.cpp(61,25): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  num6.vcxproj -> D:\IT\LabWorks\LabNum6\num6\x64\Debug\num6.exe
