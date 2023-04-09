@@ -1,0 +1,3 @@
+﻿  numb5.cpp
+D:\IT\LabWorks\LabNum5\numb5\numb5\numb5.cpp(110,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  numb5.vcxproj -> D:\IT\LabWorks\LabNum5\numb5\x64\Debug\numb5.exe
