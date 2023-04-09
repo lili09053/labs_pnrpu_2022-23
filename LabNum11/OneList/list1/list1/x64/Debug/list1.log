@@ -1,0 +1,3 @@
+﻿  list1.cpp
+D:\IT\LabWorks\LabNum11\OneList\list1\list1\list1.cpp(208,11): warning C4101: tmp: неиспользованная локальная переменная
+  list1.vcxproj -> D:\IT\LabWorks\LabNum11\OneList\list1\x64\Debug\list1.exe
