@@ -1,3 +1,0 @@
-﻿  2phase.cpp
-D:\IT\LabWorks\SORT\ExternalSorting\2phase\2phase\2phase.cpp(116,19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  2phase.vcxproj -> D:\IT\LabWorks\SORT\ExternalSorting\2phase\x64\Debug\2phase.exe
