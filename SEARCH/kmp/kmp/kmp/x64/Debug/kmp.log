@@ -1,0 +1,3 @@
+﻿  kmp.cpp
+D:\IT\LabWorks\SEARCH\kmp\kmp\kmp\kmp.cpp(10,29): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  kmp.vcxproj -> D:\IT\LabWorks\SEARCH\kmp\kmp\x64\Debug\kmp.exe
