@@ -1,0 +1,3 @@
+﻿  dir.cpp
+D:\IT\LabWorks\SEARCH\direct\dir\dir\dir.cpp(29,22): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  dir.vcxproj -> D:\IT\LabWorks\SEARCH\direct\dir\x64\Debug\dir.exe
