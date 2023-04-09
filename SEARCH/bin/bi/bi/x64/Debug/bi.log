@@ -1,0 +1,3 @@
+﻿  bi.cpp
+D:\IT\LabWorks\SEARCH\bin\bi\bi\bi.cpp(49,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  bi.vcxproj -> D:\IT\LabWorks\SEARCH\bin\bi\x64\Debug\bi.exe
