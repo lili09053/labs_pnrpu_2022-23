@@ -1,0 +1,3 @@
+﻿  numb4.cpp
+D:\IT\LabWorks\LabNum4\num4\numb4\numb4\numb4.cpp(81,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  numb4.vcxproj -> D:\IT\LabWorks\LabNum4\num4\numb4\x64\Debug\numb4.exe
