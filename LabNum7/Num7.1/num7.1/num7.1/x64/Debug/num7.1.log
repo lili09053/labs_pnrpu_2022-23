@@ -1,0 +1,3 @@
+﻿  num7.1.cpp
+D:\IT\LabWorks\LabNum7\Num7.1\num7.1\num7.1\num7.1.cpp(62,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  num7.1.vcxproj -> D:\IT\LabWorks\LabNum7\Num7.1\num7.1\x64\Debug\num7.1.exe
