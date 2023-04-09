@@ -1,0 +1,4 @@
+﻿  block.cpp
+D:\IT\LabWorks\SORT\block\bl\block\block\block.cpp(14,9): warning C4101: j: неиспользованная локальная переменная
+D:\IT\LabWorks\SORT\block\bl\block\block\block.cpp(49,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  block.vcxproj -> D:\IT\LabWorks\SORT\block\bl\block\x64\Debug\block.exe
