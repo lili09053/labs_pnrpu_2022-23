@@ -1,0 +1,3 @@
+﻿  hash.cpp
+D:\IT\LabWorks\HASH-TABLE\ht_chain\hash\hash\hash.cpp(391,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  hash.vcxproj -> D:\IT\LabWorks\HASH-TABLE\ht_chain\hash\x64\Debug\hash.exe
