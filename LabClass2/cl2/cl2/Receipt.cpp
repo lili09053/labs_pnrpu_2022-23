@@ -1,35 +1,35 @@
-#include "Receipt.h"
+п»ї#include "Receipt.h"
 #include <iostream>
 #include <string>
 using namespace std;
 
 
-Receipt::Receipt()		// конструктор по умолчанию
+Receipt::Receipt()		// РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
 {
 	number = 0;
 	date = " ";
 	sum = 0.00;
-	cout << "Вызван конструктор без параметров" << endl;
+	cout << "Р’С‹Р·РІР°РЅ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ Р±РµР· РїР°СЂР°РјРµС‚СЂРѕРІ" << endl;
 }
 
-Receipt::Receipt(int Num, string Date, double Sum)	// конструктор с параметрами
+Receipt::Receipt(int Num, string Date, double Sum)	// РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ СЃ РїР°СЂР°РјРµС‚СЂР°РјРё
 {
 	number = Num;
 	date = Date;
 	sum = Sum;
-	cout << "Вызван конструктор с параметрами" << endl;
+	cout << "Р’С‹Р·РІР°РЅ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ СЃ РїР°СЂР°РјРµС‚СЂР°РјРё" << endl;
 }
 
-Receipt::Receipt(const Receipt& p) // конструктор копирования
+Receipt::Receipt(const Receipt& p) // РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РєРѕРїРёСЂРѕРІР°РЅРёСЏ
 {
 	number = p.number;
 	date = p.date;
 	sum = p.sum;
-	cout << "Вызван конструктор копирования" << endl;
+	cout << "Р’С‹Р·РІР°РЅ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РєРѕРїРёСЂРѕРІР°РЅРёСЏ" << endl;
 }
 Receipt::~Receipt()
 {
-	cout << "Вызван деструктор" << endl;
+	cout << "Р’С‹Р·РІР°РЅ РґРµСЃС‚СЂСѓРєС‚РѕСЂ" << endl;
 }
 
 int Receipt::get_number()
@@ -62,9 +62,9 @@ void Receipt::set_sum(double Sum)
 	sum = Sum;
 }
 
-void Receipt::Show()	// вывод атрибутов
+void Receipt::Show()	// РІС‹РІРѕРґ Р°С‚СЂРёР±СѓС‚РѕРІ
 {
-	cout << "Номер: " << number << endl;
-	cout << "Дата: " << date << endl;
-	cout << "Сумма: " << sum << endl;
+	cout << "РќРѕРјРµСЂ: " << number << endl;
+	cout << "Р”Р°С‚Р°: " << date << endl;
+	cout << "РЎСѓРјРјР°: " << sum << endl;
 }

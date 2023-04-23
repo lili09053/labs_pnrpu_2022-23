@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include <string>
 using namespace std;
 
@@ -11,19 +11,19 @@ private:
 
 public:
 
-	Receipt();		// конструктор по умолчанию
-	Receipt(int Num, string Date, double Sum);	// конструктор с параметрами
-	Receipt(const Receipt& p); // конструктор копирования
+	Receipt();		// РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
+	Receipt(int Num, string Date, double Sum);	// РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ СЃ РїР°СЂР°РјРµС‚СЂР°РјРё
+	Receipt(const Receipt& p); // РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РєРѕРїРёСЂРѕРІР°РЅРёСЏ
 	~Receipt();
 	
-	int get_number();	//селектор 
-	void set_number(int Num);	// модификатор
+	int get_number();	//СЃРµР»РµРєС‚РѕСЂ 
+	void set_number(int Num);	// РјРѕРґРёС„РёРєР°С‚РѕСЂ
 	string get_date();
 	void set_date(string Date);
 	double get_sum();
 	void set_sum(double Sum);
 
-	void Show();	// вывод атрибутов
+	void Show();	// РІС‹РІРѕРґ Р°С‚СЂРёР±СѓС‚РѕРІ
 
 };
 
