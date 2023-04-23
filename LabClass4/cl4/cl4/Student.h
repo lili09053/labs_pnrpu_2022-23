@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include "Person.h"
 class Student : public Person
 {
@@ -14,9 +14,9 @@ public:
 	int get_year();
 	void set_year(int Year);
 
-	Student& operator= (const Student& p);								// Оператор присваивания
-	friend istream& operator>> (istream& in, Student& p);			// Оператор вывода
-	friend ostream& operator<< (ostream& out, const Student& p); // Оператор ввода
+	Student& operator= (const Student& p);								// РћРїРµСЂР°С‚РѕСЂ РїСЂРёСЃРІР°РёРІР°РЅРёСЏ
+	friend istream& operator>> (istream& in, Student& p);			// РћРїРµСЂР°С‚РѕСЂ РІС‹РІРѕРґР°
+	friend ostream& operator<< (ostream& out, const Student& p); // РћРїРµСЂР°С‚РѕСЂ РІРІРѕРґР°
 	void increase_year();
 };
 

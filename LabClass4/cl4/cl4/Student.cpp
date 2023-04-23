@@ -1,4 +1,4 @@
-#include "Student.h"
+п»ї#include "Student.h"
 #include <iostream>
 using namespace std;
 
@@ -43,7 +43,7 @@ Student& Student ::operator = (const Student& p)
 	return *this;
 }
 
-istream& operator >> (istream& in, Student& p)				// Оператор ввода
+istream& operator >> (istream& in, Student& p)				// РћРїРµСЂР°С‚РѕСЂ РІРІРѕРґР°
 {
 
 	cout << "\nINPUT NAME: ";
@@ -55,7 +55,7 @@ istream& operator >> (istream& in, Student& p)				// Оператор ввода
 	return in;
 }
 
-ostream& operator << (ostream& out, const Student& p)		// Оператор вывода
+ostream& operator << (ostream& out, const Student& p)		// РћРїРµСЂР°С‚РѕСЂ РІС‹РІРѕРґР°
 {
 	out << "\nNAME: " << p.name << endl;
 	out << "AGE: " << p.age << endl;
