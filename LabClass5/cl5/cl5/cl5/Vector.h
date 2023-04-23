@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include <iostream>
 #include "Object.h"
 #include <string>
@@ -7,16 +7,16 @@ using namespace std;
 class Vector
 {
 private:
-	Object** begin;														// Указатель на первый элемент вектора
-	int size;															// Размер
-	int cur;															// Текущая позиция
+	Object** begin;														// РЈРєР°Р·Р°С‚РµР»СЊ РЅР° РїРµСЂРІС‹Р№ СЌР»РµРјРµРЅС‚ РІРµРєС‚РѕСЂР°
+	int size;															// Р Р°Р·РјРµСЂ
+	int cur;															// РўРµРєСѓС‰Р°СЏ РїРѕР·РёС†РёСЏ
 
 public: 
 	Vector(); 
-	Vector(int); // конструктор копирования
+	Vector(int); // РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РєРѕРїРёСЂРѕРІР°РЅРёСЏ
 	~Vector();
 	friend ostream& operator<< (ostream& out, const Vector& Pointer);	
-	void Add(Object* p);												// Добавление элемента в вектор
+	void Add(Object* p);												// Р”РѕР±Р°РІР»РµРЅРёРµ СЌР»РµРјРµРЅС‚Р° РІ РІРµРєС‚РѕСЂ
 
 };
 

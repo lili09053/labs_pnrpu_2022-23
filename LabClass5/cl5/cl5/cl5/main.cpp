@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <string>
 #include "Object.h"
 #include "Person.h"
@@ -12,7 +12,7 @@ int main()
 	Person A;
 	cin >> A;
 	cout << "Operator << " << endl;
-	cout << A; // ÷åðåç ïåðåãðóæåííóþ ôóíêöèþ
+	cout << A; // Ñ‡ÐµÑ€ÐµÐ· Ð¿ÐµÑ€ÐµÐ³Ñ€ÑƒÐ¶ÐµÐ½Ð½ÑƒÑŽ Ñ„ÑƒÐ½ÐºÑ†Ð¸ÑŽ
 
 	Object* ptr = &A;
 	cout << "Show()" << endl;

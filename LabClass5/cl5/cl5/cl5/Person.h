@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include "Object.h"
 #include <string>
 using namespace std;
@@ -19,9 +19,9 @@ public:
 	int get_age();
 	void set_age(int Age);
 
-	Person& operator= (const Person& p);								// Оператор присваивания
-	friend istream& operator>> (istream& in, Person& p);			// Оператор вывода
-	friend ostream& operator<< (ostream& out, const Person& p); // Оператор ввода
+	Person& operator= (const Person& p);								// РћРїРµСЂР°С‚РѕСЂ РїСЂРёСЃРІР°РёРІР°РЅРёСЏ
+	friend istream& operator>> (istream& in, Person& p);			// РћРїРµСЂР°С‚РѕСЂ РІС‹РІРѕРґР°
+	friend ostream& operator<< (ostream& out, const Person& p); // РћРїРµСЂР°С‚РѕСЂ РІРІРѕРґР°
 
 	void Show() override;
 };
