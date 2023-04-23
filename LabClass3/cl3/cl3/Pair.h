@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include <iostream>
 using namespace std;
 
@@ -20,13 +20,13 @@ public:
 	double get_b();
 	void set_b(double B);
 
-	Pair& operator ++();												// Оператор префиксного инкремента
-	Pair& operator ++(int);										// Оператор постфиксного инкремента
-	Pair& operator = (const Pair& Link);								// Оператор присваивания
-	friend bool operator < (Pair& p, Pair& q);						// Оператор сравнения
-	friend bool operator > (Pair& p, Pair& q);						// Оператор сравнения
-	friend istream& operator >> (istream& in, Pair& Pointer);			// Оператор ввода
-	friend ostream& operator << (ostream& out, const Pair& Pointer);	// Оператор вывода
+	Pair& operator ++();												// РћРїРµСЂР°С‚РѕСЂ РїСЂРµС„РёРєСЃРЅРѕРіРѕ РёРЅРєСЂРµРјРµРЅС‚Р°
+	Pair& operator ++(int);										// РћРїРµСЂР°С‚РѕСЂ РїРѕСЃС‚С„РёРєСЃРЅРѕРіРѕ РёРЅРєСЂРµРјРµРЅС‚Р°
+	Pair& operator = (const Pair& Link);								// РћРїРµСЂР°С‚РѕСЂ РїСЂРёСЃРІР°РёРІР°РЅРёСЏ
+	friend bool operator < (Pair& p, Pair& q);						// РћРїРµСЂР°С‚РѕСЂ СЃСЂР°РІРЅРµРЅРёСЏ
+	friend bool operator > (Pair& p, Pair& q);						// РћРїРµСЂР°С‚РѕСЂ СЃСЂР°РІРЅРµРЅРёСЏ
+	friend istream& operator >> (istream& in, Pair& Pointer);			// РћРїРµСЂР°С‚РѕСЂ РІРІРѕРґР°
+	friend ostream& operator << (ostream& out, const Pair& Pointer);	// РћРїРµСЂР°С‚РѕСЂ РІС‹РІРѕРґР°
 };
 	
 

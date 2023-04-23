@@ -1,4 +1,4 @@
-#include "Pair.h"
+п»ї#include "Pair.h"
 
 Pair::Pair()
 {
@@ -43,19 +43,19 @@ void Pair::set_b(double B)
 	b = B;
 }
 
-Pair& Pair::operator ++()									// Оператор префиксного инкремента
+Pair& Pair::operator ++()									// РћРїРµСЂР°С‚РѕСЂ РїСЂРµС„РёРєСЃРЅРѕРіРѕ РёРЅРєСЂРµРјРµРЅС‚Р°
 {
 	++a;
 	return *this;
 }
 
-Pair& Pair::operator ++(int)							// Оператор постфиксного инкремента
+Pair& Pair::operator ++(int)							// РћРїРµСЂР°С‚РѕСЂ РїРѕСЃС‚С„РёРєСЃРЅРѕРіРѕ РёРЅРєСЂРµРјРµРЅС‚Р°
 {
 	b++;
 	return *this;
 }
 
-Pair& Pair::operator = (const Pair& Link)				// Оператор присваивания
+Pair& Pair::operator = (const Pair& Link)				// РћРїРµСЂР°С‚РѕСЂ РїСЂРёСЃРІР°РёРІР°РЅРёСЏ
 {
 	if (&Link != this)
 	{
@@ -65,7 +65,7 @@ Pair& Pair::operator = (const Pair& Link)				// Оператор присваивания
 	return *this;
 }
 
-bool operator < (Pair& p, Pair& q)						// Оператор сравнения
+bool operator < (Pair& p, Pair& q)						// РћРїРµСЂР°С‚РѕСЂ СЃСЂР°РІРЅРµРЅРёСЏ
 {
 	if (p.a < q.a)
 	{
@@ -91,7 +91,7 @@ bool operator < (Pair& p, Pair& q)						// Оператор сравнения
 	}
 }
 
-bool operator > (Pair& p, Pair& q)						// Оператор сравнения
+bool operator > (Pair& p, Pair& q)						// РћРїРµСЂР°С‚РѕСЂ СЃСЂР°РІРЅРµРЅРёСЏ
 {
 	if (p.a > q.a)
 	{
@@ -117,18 +117,18 @@ bool operator > (Pair& p, Pair& q)						// Оператор сравнения
 	}
 }
 
-istream& operator >> (istream& in, Pair& Pointer)			// Оператор ввода
+istream& operator >> (istream& in, Pair& Pointer)			// РћРїРµСЂР°С‚РѕСЂ РІРІРѕРґР°
 {
-	cout << "Введите a: ";
+	cout << "Р’РІРµРґРёС‚Рµ a: ";
 	in >> Pointer.a;
 	
-	cout << "Введите b: ";
+	cout << "Р’РІРµРґРёС‚Рµ b: ";
 	in >> Pointer.b;
 	
 	return in;
 }
 
-ostream& operator << (ostream& out, const Pair& Pointer)	// Оператор вывода
+ostream& operator << (ostream& out, const Pair& Pointer)	// РћРїРµСЂР°С‚РѕСЂ РІС‹РІРѕРґР°
 {
 	cout << "a:b - ";
 	return (out << Pointer.a << " : " << Pointer.b);
