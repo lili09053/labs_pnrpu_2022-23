@@ -1,0 +1,4 @@
+﻿  st.cpp
+D:\IT\LabWorks\SORT\ExternalSorting\st\st\st.cpp(89,7): warning C4101: i: неиспользованная локальная переменная
+D:\IT\LabWorks\SORT\ExternalSorting\st\st\st.cpp(128,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  st.vcxproj -> D:\IT\LabWorks\SORT\ExternalSorting\st\x64\Debug\st.exe
