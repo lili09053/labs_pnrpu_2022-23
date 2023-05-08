@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\IT\LabWorks\LabClass11\cl11(4)\cl11(4)\main.cpp(36,21): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  cl11(4).vcxproj -> D:\IT\LabWorks\LabClass11\cl11(4)\x64\Debug\cl11(4).exe

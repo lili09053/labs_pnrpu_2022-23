@@ -1,0 +1,21 @@
+﻿  main.cpp
+D:\IT\LabWorks\LabClass11\cl11(5)\cl11(5)\List.h(43,1): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+D:\IT\LabWorks\LabClass11\cl11(5)\cl11(5)\List.h(36): message : во время компиляции функции-члена класс шаблон "List<Pair>::List(int)"
+D:\IT\LabWorks\LabClass11\cl11(5)\cl11(5)\main.cpp(24): message : выполняется компиляция ссылки на экземпляр шаблон функции "List<Pair>::List(int)"
+D:\IT\LabWorks\LabClass11\cl11(5)\cl11(5)\main.cpp(24): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "List<Pair>"
+D:\IT\LabWorks\LabClass11\cl11(5)\cl11(5)\List.h(73,1): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+D:\IT\LabWorks\LabClass11\cl11(5)\cl11(5)\List.h(71): message : во время компиляции функции-члена класс шаблон "T List<T>::average(void)"
+          with
+          [
+              T=Pair
+          ]
+D:\IT\LabWorks\LabClass11\cl11(5)\cl11(5)\List.h(87): message : выполняется компиляция ссылки на экземпляр шаблон функции "T List<T>::average(void)"
+          with
+          [
+              T=Pair
+          ]
+D:\IT\LabWorks\LabClass11\cl11(5)\cl11(5)\List.h(36): message : во время компиляции функции-члена класс шаблон "List<Pair>::List(int)"
+D:\IT\LabWorks\LabClass11\cl11(5)\cl11(5)\main.cpp(24): message : выполняется компиляция ссылки на экземпляр шаблон функции "List<Pair>::List(int)"
+  Pair.cpp
+  Создание кода...
+  cl11(5).vcxproj -> D:\IT\LabWorks\LabClass11\cl11(5)\x64\Debug\cl11(5).exe
