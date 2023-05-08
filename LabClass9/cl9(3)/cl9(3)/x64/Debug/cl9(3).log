@@ -1,0 +1,10 @@
+﻿  List.cpp
+  main.cpp
+D:\IT\LabWorks\LabClass9\cl9(3)\cl9(3)\main.cpp(15,16): warning C4101: e: неиспользованная локальная переменная
+D:\IT\LabWorks\LabClass9\cl9(3)\cl9(3)\main.cpp(21,16): warning C4101: e: неиспользованная локальная переменная
+D:\IT\LabWorks\LabClass9\cl9(3)\cl9(3)\main.cpp(30,16): warning C4101: e: неиспользованная локальная переменная
+D:\IT\LabWorks\LabClass9\cl9(3)\cl9(3)\main.cpp(36,16): warning C4101: e: неиспользованная локальная переменная
+D:\IT\LabWorks\LabClass9\cl9(3)\cl9(3)\main.cpp(44,16): warning C4101: e: неиспользованная локальная переменная
+  Создание кода...
+D:\IT\LabWorks\LabClass9\cl9(3)\cl9(3)\List.cpp(132): warning C4715: List::operator[]: значение возвращается не при всех путях выполнения
+  cl9(3).vcxproj -> D:\IT\LabWorks\LabClass9\cl9(3)\x64\Debug\cl9(3).exe

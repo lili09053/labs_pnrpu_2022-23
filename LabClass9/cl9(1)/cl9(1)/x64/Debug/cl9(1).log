@@ -1,0 +1,5 @@
+﻿  List.cpp
+  main.cpp
+  Создание кода...
+D:\IT\LabWorks\LabClass9\cl9(1)\cl9(1)\List.cpp(137): warning C4715: List::operator[]: значение возвращается не при всех путях выполнения
+  cl9(1).vcxproj -> D:\IT\LabWorks\LabClass9\cl9(1)\x64\Debug\cl9(1).exe
