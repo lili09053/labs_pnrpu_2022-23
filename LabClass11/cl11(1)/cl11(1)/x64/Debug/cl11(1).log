@@ -1,0 +1,5 @@
+﻿  main.cpp
+D:\IT\LabWorks\LabClass11\cl11(1)\cl11(1)\main.cpp(29,21): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\IT\LabWorks\LabClass11\cl11(1)\cl11(1)\main.cpp(63,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\IT\LabWorks\LabClass11\cl11(1)\cl11(1)\main.cpp(64,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  cl11(1).vcxproj -> D:\IT\LabWorks\LabClass11\cl11(1)\x64\Debug\cl11(1).exe
