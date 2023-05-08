@@ -1,0 +1,7 @@
+﻿  Pair.cpp
+  main.cpp
+D:\IT\LabWorks\LabClass11\cl11(2)\cl11(2)\main.cpp(34,21): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\IT\LabWorks\LabClass11\cl11(2)\cl11(2)\main.cpp(68,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\IT\LabWorks\LabClass11\cl11(2)\cl11(2)\main.cpp(69,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Создание кода...
+  cl11(2).vcxproj -> D:\IT\LabWorks\LabClass11\cl11(2)\x64\Debug\cl11(2).exe
