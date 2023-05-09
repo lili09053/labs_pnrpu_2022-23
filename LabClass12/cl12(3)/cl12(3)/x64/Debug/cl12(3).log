@@ -1,0 +1,6 @@
+﻿  main.cpp
+D:\IT\LabWorks\LabClass12\cl12(3)\cl12(3)\List.h(46,1): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+D:\IT\LabWorks\LabClass12\cl12(3)\cl12(3)\List.h(36): message : во время компиляции функции-члена класс шаблон "List<Pair>::List(int)"
+D:\IT\LabWorks\LabClass12\cl12(3)\cl12(3)\main.cpp(15): message : выполняется компиляция ссылки на экземпляр шаблон функции "List<Pair>::List(int)"
+D:\IT\LabWorks\LabClass12\cl12(3)\cl12(3)\main.cpp(15): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "List<Pair>"
+  cl12(3).vcxproj -> D:\IT\LabWorks\LabClass12\cl12(3)\x64\Debug\cl12(3).exe
