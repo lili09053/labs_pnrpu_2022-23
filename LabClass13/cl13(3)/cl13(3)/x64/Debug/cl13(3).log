@@ -1,0 +1,11 @@
+﻿  main.cpp
+D:\IT\LabWorks\LabClass13\cl13(3)\cl13(3)\main.cpp(47,21): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(2027,17): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "std::pair<const Pair,Pair>" (или приемлемое преобразование отсутствует)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\utility(293,11): message : может быть "std::pair<const Pair,Pair> &std::pair<const Pair,Pair>::operator =(volatile const std::pair<const Pair,Pair> &)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(2017,1): message : при попытке сопоставить список аргументов "(std::pair<const Pair,Pair>, std::pair<const Pair,Pair>)"
+D:\IT\LabWorks\LabClass13\cl13(3)\cl13(3)\main.cpp(93): message : выполняется компиляция ссылки на экземпляр шаблон функции "_FwdIt std::remove_if<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const Pair,Pair>>>>,del::<lambda_1>>(_FwdIt,const _FwdIt,_Pr)"
+          with
+          [
+              _FwdIt=std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const Pair,Pair>>>>,
+              _Pr=del::<lambda_1>
+          ]
